@@ -1,10 +1,21 @@
- <style>
-  	a:link {
+  	a:link{
     	color:black;
         text-decoration:none;
     }
  	a:hover {
     	color:green;
     }
-    
-  </style>
+    body{
+		display: flex;
+		flex-direction: column;
+	}
+	main{
+		display: flex;
+		flex: auto;
+	}
+	aside{
+		flex: 1;
+	}
+	article{
+		flex: 3;
+	}
